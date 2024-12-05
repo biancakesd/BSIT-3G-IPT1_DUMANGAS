@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+.header, .section, .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    height: 100vh;
+    background: linear-gradient(30deg, #3B5998, beige);
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+.header h1 {
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+}
+.scroll-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #3B5998;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+.scroll-links a:hover {
+    background-color: beige;
+    color: #3B5998;
+}
+.section {
+    min-height: 100vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#profile p {
+    color: beige;
+}
+#profile {
+    background-image: url('images/BG (2).jpg'); /* Local image */
+}
+#about {
+    background-image: url('images/bianca.jpg'); /* Local image */
+}
+#contacts {
+    background-image: url('images/bbb.jpg'); /* Local image */
+}
+.content-box {
+    background: rgba(59, 89, 152, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(59, 89, 152, 0.3);
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+.content-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: beige;
+}
+.content-box p, .content-box ul {
+    color: beige;
+}
+#about h3 {
+    color: beige;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.8;
+}
+.footer {
+    padding: 20px;
+    background: beige;
+}
+.footer a {
+    margin: 0 10px;
+    color: #3B5998;
+    font-size: 1.5rem;
+}
+.footer a:hover {
+    color: black;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff; /* default color for contact links */
+    margin: 10px 0;
+}
+
+a .contact-text {
+    margin-left: 10px;
+}
+
+
+a:hover {
+    color: beige; /* Color change when hovered */
+}
+
+/* Styling for icons to make them visible */
+.fas {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+/* Adjusting the size of the social media icons */
+.fab {
+    font-size: 2.5rem;  /* Adjust the size here (e.g., 2.5rem for larger icons) */
+    margin-right: 15px; /* Add some space between icons */
+}
+
+.fab:hover {
+    color: beige; /* Optionally add hover effect for icons */
+}
+#profile p {
+    color: beige; 
+    font-size: 1.1rem;  /* Increase font size */
+    line-height: 1.8;  /* Increase line height for better readability */
+    font-weight: 500;  /* Make it bold for emphasis */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
